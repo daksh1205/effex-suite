@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:resource_app/screens/auth/register_page.dart';
+import 'package:resource_app/screens/auth/signin_page.dart';
 
 class SplashPage extends StatelessWidget {
   const SplashPage({super.key});
@@ -15,8 +16,11 @@ class SplashPage extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              const SizedBox(
+                height: 15.0,
+              ),
               Image.asset(
-                "assets/splashs.png",
+                "assets/splash.png",
               ),
               Text(
                 "Resource\nManagement\nElevated",
@@ -42,7 +46,7 @@ class SplashPage extends StatelessWidget {
               ),
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.red,
+                  backgroundColor: Color.fromARGB(255, 250, 186, 24),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10.0),
                   ),
@@ -55,7 +59,7 @@ class SplashPage extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => RegisterPage(),
+                      builder: (context) => SignInPage(),
                     ),
                   );
                 },

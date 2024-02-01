@@ -3,8 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:resource_app/screens/auth/forgotpassword_page.dart';
 import 'package:resource_app/screens/auth/register_page.dart';
 import 'package:resource_app/screens/auth/splash_page.dart';
-import 'package:resource_app/screens/start_scanning_page.dart';
-
+import 'package:resource_app/screens/dashboard/dashboard_home.dart';
 
 class SignInPage extends StatelessWidget {
   const SignInPage({super.key});
@@ -15,27 +14,6 @@ class SignInPage extends StatelessWidget {
       backgroundColor: Colors.black,
       appBar: AppBar(
         backgroundColor: Colors.black,
-        leading: Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: CircleAvatar(
-            backgroundColor: const Color.fromARGB(142, 88, 81, 81),
-            radius: 5,
-            child: IconButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => SplashPage(),
-                  ),
-                );
-              },
-              icon: const Icon(
-                Icons.arrow_back_ios_new,
-                color: Colors.white,
-              ),
-            ),
-          ),
-        ),
       ),
       body: Padding(
         padding: const EdgeInsets.all(5.0),
@@ -147,7 +125,7 @@ class SignInPage extends StatelessWidget {
               ),
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Color(0xFFD71921),
+                  backgroundColor: Color.fromARGB(255, 250, 186, 24),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(20),
                   ),
@@ -157,7 +135,7 @@ class SignInPage extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => StartScanningPage(),
+                      builder: (context) => DashboardHome(),
                     ),
                   );
                 },

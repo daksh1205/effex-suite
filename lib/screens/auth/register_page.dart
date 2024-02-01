@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:resource_app/screens/auth/signin_page.dart';
 import 'package:resource_app/screens/auth/splash_page.dart';
-import 'package:resource_app/screens/start_scanning_page.dart';
+import 'package:resource_app/screens/dashboard/dashboard_home.dart';
 
 class RegisterPage extends StatelessWidget {
   const RegisterPage({super.key});
@@ -147,7 +147,7 @@ class RegisterPage extends StatelessWidget {
               ),
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Color(0xFFD71921),
+                  backgroundColor: Color.fromARGB(255, 250, 186, 24),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(20),
                   ),
@@ -157,7 +157,7 @@ class RegisterPage extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => StartScanningPage(),
+                      builder: (context) => DashboardHome(),
                     ),
                   );
                 },

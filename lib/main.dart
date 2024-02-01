@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:resource_app/screens/auth/signin_page.dart';
+import 'package:resource_app/screens/auth/splash_page.dart';
 
 import 'package:resource_app/screens/dashboard/dashboard_home.dart';
 import 'package:resource_app/screens/dashboard/dashboard_projects.dart';
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LeaderboardPage(),
+      home: SplashPage(),
     );
   }
 }
