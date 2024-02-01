@@ -4,6 +4,7 @@ import 'package:resource_app/screens/dashboard/dashboard_home.dart';
 import 'package:resource_app/screens/dashboard/dashboard_projects.dart';
 import 'package:resource_app/screens/dashboard/dashboard_projqueue.dart';
 import 'package:resource_app/screens/pages/fliter_page.dart';
+import 'package:resource_app/screens/pages/notifications.dart';
 import 'package:resource_app/screens/pages/settings.dart';
 import 'package:resource_app/screens/profile/leaderboard_page.dart';
 
@@ -92,7 +93,7 @@ class _MyNavigationBarState extends State<MyNavigationBar> {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => FilterPage(),
+                      builder: (context) => Notifications(),
                     ),
                   );
                 },
