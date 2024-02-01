@@ -83,13 +83,6 @@ class LeaderboardPage extends StatelessWidget {
         body: SingleChildScrollView(
           child: Column(
             children: [
-              const Padding(
-                padding: EdgeInsets.only(left: 15.0, right: 15.0),
-                child: Divider(
-                  thickness: 2,
-                  color: Color.fromARGB(107, 255, 255, 255),
-                ),
-              ),
               const SizedBox(
                 height: 35,
               ),
@@ -268,76 +261,6 @@ class LeaderboardPage extends StatelessWidget {
                         Column(
                           children: [
                             Text(
-                              "02",
-                              style: GoogleFonts.sora(
-                                color: Colors.white,
-                                fontSize: 12,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
-                            Image.asset(
-                              "assets/up.png",
-                              height: 20,
-                            )
-                          ],
-                        ),
-                        const SizedBox(
-                          width: 10,
-                        ),
-                        Image.asset(
-                          "assets/sai.png",
-                          height: 33,
-                        ),
-                        const SizedBox(
-                          width: 10,
-                        ),
-                        Text(
-                          "Sai Teja",
-                          style: GoogleFonts.sora(
-                            color: Colors.white,
-                            fontSize: 14,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                        const Spacer(),
-                        Image.asset(
-                          "assets/rect.png",
-                        ),
-                        const SizedBox(
-                          width: 10,
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.only(right: 8.0),
-                          child: Text(
-                            "20,568",
-                            style: GoogleFonts.sora(
-                              color: Colors.white,
-                              fontSize: 14,
-                              fontWeight: FontWeight.bold,
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.all(20.0),
-                child: Container(
-                  height: 50,
-                  width: double.infinity,
-                  decoration: BoxDecoration(
-                    color: const Color.fromARGB(47, 255, 255, 255),
-                    borderRadius: BorderRadius.circular(15),
-                  ),
-                  child: Padding(
-                    padding: const EdgeInsets.all(5.0),
-                    child: Row(
-                      children: [
-                        Column(
-                          children: [
-                            Text(
                               "03",
                               style: GoogleFonts.sora(
                                 color: Colors.white,
@@ -379,7 +302,287 @@ class LeaderboardPage extends StatelessWidget {
                         Padding(
                           padding: const EdgeInsets.only(right: 8.0),
                           child: Text(
-                            "20,568",
+                            "19,768",
+                            style: GoogleFonts.sora(
+                              color: Colors.white,
+                              fontSize: 14,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(20.0),
+                child: Container(
+                  height: 50,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                    color: const Color.fromARGB(47, 255, 255, 255),
+                    borderRadius: BorderRadius.circular(15),
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.all(5.0),
+                    child: Row(
+                      children: [
+                        Column(
+                          children: [
+                            Text(
+                              "04",
+                              style: GoogleFonts.sora(
+                                color: Colors.white,
+                                fontSize: 12,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                            Image.asset(
+                              "assets/up.png",
+                              height: 20,
+                            )
+                          ],
+                        ),
+                        const SizedBox(
+                          width: 10,
+                        ),
+                        Image.asset(
+                          "assets/kj.png",
+                          height: 33,
+                        ),
+                        const SizedBox(
+                          width: 10,
+                        ),
+                        Text(
+                          "Priya Kumari",
+                          style: GoogleFonts.sora(
+                            color: Colors.white,
+                            fontSize: 14,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                        const Spacer(),
+                        Image.asset(
+                          "assets/rect.png",
+                        ),
+                        const SizedBox(
+                          width: 10,
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.only(right: 8.0),
+                          child: Text(
+                            "13,879",
+                            style: GoogleFonts.sora(
+                              color: Colors.white,
+                              fontSize: 14,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(20.0),
+                child: Container(
+                  height: 50,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                    color: const Color.fromARGB(47, 255, 255, 255),
+                    borderRadius: BorderRadius.circular(15),
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.all(5.0),
+                    child: Row(
+                      children: [
+                        Column(
+                          children: [
+                            Text(
+                              "05",
+                              style: GoogleFonts.sora(
+                                color: Colors.white,
+                                fontSize: 12,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                            Image.asset(
+                              "assets/down.png",
+                              height: 20,
+                            )
+                          ],
+                        ),
+                        const SizedBox(
+                          width: 10,
+                        ),
+                        Image.asset(
+                          "assets/sav.png",
+                          height: 33,
+                        ),
+                        const SizedBox(
+                          width: 10,
+                        ),
+                        Text(
+                          "Savitri J.",
+                          style: GoogleFonts.sora(
+                            color: Colors.white,
+                            fontSize: 14,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                        const Spacer(),
+                        Image.asset(
+                          "assets/rect.png",
+                        ),
+                        const SizedBox(
+                          width: 10,
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.only(right: 8.0),
+                          child: Text(
+                            "13,754",
+                            style: GoogleFonts.sora(
+                              color: Colors.white,
+                              fontSize: 14,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(20.0),
+                child: Container(
+                  height: 50,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                    color: const Color.fromARGB(47, 255, 255, 255),
+                    borderRadius: BorderRadius.circular(15),
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.all(5.0),
+                    child: Row(
+                      children: [
+                        Column(
+                          children: [
+                            Text(
+                              "06",
+                              style: GoogleFonts.sora(
+                                color: Colors.white,
+                                fontSize: 12,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                            Image.asset(
+                              "assets/up.png",
+                              height: 20,
+                            )
+                          ],
+                        ),
+                        const SizedBox(
+                          width: 10,
+                        ),
+                        Image.asset(
+                          "assets/ana.png",
+                          height: 33,
+                        ),
+                        const SizedBox(
+                          width: 10,
+                        ),
+                        Text(
+                          "Anastasia G.",
+                          style: GoogleFonts.sora(
+                            color: Colors.white,
+                            fontSize: 14,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                        const Spacer(),
+                        Image.asset(
+                          "assets/rect.png",
+                        ),
+                        const SizedBox(
+                          width: 10,
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.only(right: 8.0),
+                          child: Text(
+                            "11,987",
+                            style: GoogleFonts.sora(
+                              color: Colors.white,
+                              fontSize: 14,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(20.0),
+                child: Container(
+                  height: 50,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                    color: const Color.fromARGB(47, 255, 255, 255),
+                    borderRadius: BorderRadius.circular(15),
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.all(5.0),
+                    child: Row(
+                      children: [
+                        Column(
+                          children: [
+                            Text(
+                              "06",
+                              style: GoogleFonts.sora(
+                                color: Colors.white,
+                                fontSize: 12,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                            Image.asset(
+                              "assets/up.png",
+                              height: 20,
+                            )
+                          ],
+                        ),
+                        const SizedBox(
+                          width: 10,
+                        ),
+                        Image.asset(
+                          "assets/ana.png",
+                          height: 33,
+                        ),
+                        const SizedBox(
+                          width: 10,
+                        ),
+                        Text(
+                          "Kylie Jenner",
+                          style: GoogleFonts.sora(
+                            color: Colors.white,
+                            fontSize: 14,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                        const Spacer(),
+                        Image.asset(
+                          "assets/rect.png",
+                        ),
+                        const SizedBox(
+                          width: 10,
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.only(right: 8.0),
+                          child: Text(
+                            "11,051",
                             style: GoogleFonts.sora(
                               color: Colors.white,
                               fontSize: 14,
