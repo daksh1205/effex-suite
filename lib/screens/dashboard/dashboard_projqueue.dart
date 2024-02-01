@@ -9,93 +9,21 @@ class DashboardProjQueue extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         backgroundColor: Colors.black,
-        appBar: AppBar(
-          backgroundColor: Colors.black,
-          title: Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Column(
-              children: [
-                Text(
-                  "Hello Priya!",
-                  style: GoogleFonts.sora(
-                    color: Colors.white,
-                    fontSize: 20,
-                  ),
-                ),
-                Text(
-                  "Good Morning",
-                  style: GoogleFonts.sora(
-                    color: const Color.fromARGB(112, 255, 255, 255),
-                    fontSize: 14,
-                  ),
-                ),
-              ],
-            ),
-          ),
-          actions: [
-            IconButton(
-              onPressed: () {},
-              icon: Image.asset("assets/pfp.png"),
-            ),
-          ],
-        ),
-        bottomNavigationBar: BottomNavigationBar(
-          type: BottomNavigationBarType.fixed,
-          backgroundColor: Colors.black,
-          items: [
-            BottomNavigationBarItem(
-              icon: Image.asset(
-                "assets/homenav.png",
-                height: 24,
-              ),
-              label: "",
-            ),
-            BottomNavigationBarItem(
-              icon: Image.asset(
-                "assets/n1.png",
-                height: 24,
-              ),
-              label: "",
-            ),
-            BottomNavigationBarItem(
-              icon: Image.asset(
-                "assets/n2.png",
-                height: 24,
-              ),
-              label: "",
-            ),
-            BottomNavigationBarItem(
-              icon: Image.asset(
-                "assets/n3.png",
-                height: 24,
-              ),
-              label: "",
-            ),
-            BottomNavigationBarItem(
-              icon: Image.asset(
-                "assets/n4.png",
-                height: 24,
-              ),
-              label: "",
-            ),
-          ],
-        ),
         body: SingleChildScrollView(
           child: Padding(
-            padding: const EdgeInsets.all(16.0),
+            padding: const EdgeInsets.only(left: 15.0),
             child: Column(
               children: [
-                const SizedBox(
-                  height: 35,
-                ),
+                const SizedBox(height: 15),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: [
                     Padding(
-                      padding: const EdgeInsets.only(left: 25.0),
+                      padding: const EdgeInsets.only(left: 20.0),
                       child: Text(
                         "Projects Queue",
                         style: GoogleFonts.sora(
+                          fontWeight: FontWeight.bold,
                           color: Colors.white,
                           fontSize: 25,
                         ),
@@ -111,7 +39,7 @@ class DashboardProjQueue extends StatelessWidget {
                   height: 120,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20),
-                    color: Color.fromARGB(255, 58, 55, 55),
+                    color: Color.fromARGB(83, 58, 55, 55),
                   ),
                   child: Padding(
                     padding: const EdgeInsets.all(25.0),
@@ -204,7 +132,7 @@ class DashboardProjQueue extends StatelessWidget {
                   height: 120,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20),
-                    color: Color.fromARGB(255, 58, 55, 55),
+                    color: Color.fromARGB(83, 58, 55, 55),
                   ),
                   child: Padding(
                     padding: const EdgeInsets.all(25.0),
@@ -297,7 +225,7 @@ class DashboardProjQueue extends StatelessWidget {
                   height: 120,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20),
-                    color: Color.fromARGB(255, 58, 55, 55),
+                    color: Color.fromARGB(83, 58, 55, 55),
                   ),
                   child: Padding(
                     padding: const EdgeInsets.all(25.0),
@@ -390,7 +318,7 @@ class DashboardProjQueue extends StatelessWidget {
                   height: 120,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20),
-                    color: Color.fromARGB(255, 58, 55, 55),
+                    color: Color.fromARGB(83, 58, 55, 55),
                   ),
                   child: Padding(
                     padding: const EdgeInsets.all(25.0),

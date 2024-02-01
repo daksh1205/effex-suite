@@ -9,89 +9,11 @@ class LeaderboardPage extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         backgroundColor: Colors.black,
-        appBar: AppBar(
-          backgroundColor: Colors.black,
-          title: Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Column(
-              children: [
-                Text(
-                  "Hello Priya!",
-                  style: GoogleFonts.sora(
-                    color: Colors.white,
-                    fontSize: 20,
-                  ),
-                ),
-                Text(
-                  "Good Morning",
-                  style: GoogleFonts.sora(
-                    color: const Color.fromARGB(112, 255, 255, 255),
-                    fontSize: 14,
-                  ),
-                ),
-              ],
-            ),
-          ),
-          actions: [
-            IconButton(
-              onPressed: () {},
-              icon: Image.asset("assets/pfp.png"),
-            ),
-          ],
-        ),
-        bottomNavigationBar: BottomNavigationBar(
-          type: BottomNavigationBarType.fixed,
-          backgroundColor: Colors.black,
-          items: [
-            BottomNavigationBarItem(
-              icon: Image.asset(
-                "assets/homenav.png",
-                height: 24,
-              ),
-              label: "",
-            ),
-            BottomNavigationBarItem(
-              icon: Image.asset(
-                "assets/n1.png",
-                height: 24,
-              ),
-              label: "",
-            ),
-            BottomNavigationBarItem(
-              icon: Image.asset(
-                "assets/n2.png",
-                height: 24,
-              ),
-              label: "",
-            ),
-            BottomNavigationBarItem(
-              icon: Image.asset(
-                "assets/n3.png",
-                height: 24,
-              ),
-              label: "",
-            ),
-            BottomNavigationBarItem(
-              icon: Image.asset(
-                "assets/n4.png",
-                height: 24,
-              ),
-              label: "",
-            ),
-          ],
-        ),
         body: SingleChildScrollView(
           child: Column(
             children: [
-              const Padding(
-                padding: EdgeInsets.only(left: 15.0, right: 15.0),
-                child: Divider(
-                  thickness: 2,
-                  color: Color.fromARGB(107, 255, 255, 255),
-                ),
-              ),
               const SizedBox(
-                height: 35,
+                height: 20,
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.start,
@@ -118,7 +40,7 @@ class LeaderboardPage extends StatelessWidget {
                   height: 50,
                   width: double.infinity,
                   decoration: BoxDecoration(
-                    color: const Color.fromARGB(47, 255, 255, 255),
+                    color: Color.fromARGB(45, 104, 104, 104),
                     borderRadius: BorderRadius.circular(15),
                   ),
                   child: Padding(
@@ -188,7 +110,7 @@ class LeaderboardPage extends StatelessWidget {
                   height: 50,
                   width: double.infinity,
                   decoration: BoxDecoration(
-                    color: const Color.fromARGB(47, 255, 255, 255),
+                    color: Color.fromARGB(45, 104, 104, 104),
                     borderRadius: BorderRadius.circular(15),
                   ),
                   child: Padding(
@@ -258,7 +180,7 @@ class LeaderboardPage extends StatelessWidget {
                   height: 50,
                   width: double.infinity,
                   decoration: BoxDecoration(
-                    color: const Color.fromARGB(47, 255, 255, 255),
+                    color: Color.fromARGB(45, 104, 104, 104),
                     borderRadius: BorderRadius.circular(15),
                   ),
                   child: Padding(
@@ -328,7 +250,7 @@ class LeaderboardPage extends StatelessWidget {
                   height: 50,
                   width: double.infinity,
                   decoration: BoxDecoration(
-                    color: const Color.fromARGB(47, 255, 255, 255),
+                    color: Color.fromARGB(45, 104, 104, 104),
                     borderRadius: BorderRadius.circular(15),
                   ),
                   child: Padding(

@@ -3,6 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:resource_app/screens/auth/forgotpassword_page.dart';
 import 'package:resource_app/screens/auth/register_page.dart';
 import 'package:resource_app/screens/auth/splash_page.dart';
+import 'package:resource_app/screens/dashboard/dashboard.dart';
 import 'package:resource_app/screens/dashboard/dashboard_home.dart';
 
 class SignInPage extends StatelessWidget {
@@ -135,7 +136,7 @@ class SignInPage extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => DashboardHome(),
+                      builder: (context) => MyNavigationBar(),
                     ),
                   );
                 },
