@@ -1,4 +1,4 @@
-# resource_app
+# effex_suite
 
 A new Flutter project.
 
