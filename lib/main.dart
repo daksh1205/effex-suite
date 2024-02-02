@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:resource_app/screens/auth/signin_page.dart';
 import 'package:resource_app/screens/auth/splash_page.dart';
-
-import 'package:resource_app/screens/dashboard/dashboard_home.dart';
-import 'package:resource_app/screens/dashboard/dashboard_projects.dart';
-import 'package:resource_app/screens/dashboard/dashboard_projqueue.dart';
-import 'package:resource_app/screens/dashboard/proj_search.dart';
-import 'package:resource_app/screens/profile/leaderboard_page.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
 
 void main() {
+  Supabase.initialize(
+    url: 'https://mtoxeeddajuycuryoubv.supabase.co',
+    anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im10b3hlZWRkYWp1eWN1cnlvdWJ2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDY3NjA4NjcsImV4cCI6MjAyMjMzNjg2N30.FTAIuOANr1vu3qpxi5KFcSW2c_ueXACt8cy8kXgTEpo',
+  );
   runApp(const MyApp());
 }
 
