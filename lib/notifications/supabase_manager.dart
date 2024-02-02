@@ -10,9 +10,6 @@ class SupabaseManager {
         .select('*')
         .eq('user_id', userId)
         .order('created_at', ascending: false)
-        // Replace execute() with the correct method to perform the query
-        // For example, if the method is query(), use it here
-        // This is a placeholder, replace with the correct method
         .asStream();
   }
 
