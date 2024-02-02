@@ -3,6 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:resource_app/screens/dashboard/dashboard_projects.dart';
 import 'package:resource_app/screens/pages/fliter_page.dart';
 import 'package:resource_app/screens/pages/project_details.dart';
+import 'package:resource_app/screens/pages/stat1.dart';
 
 class DashboardHome extends StatelessWidget {
   const DashboardHome({super.key});
@@ -12,7 +13,6 @@ class DashboardHome extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         backgroundColor: Colors.black,
-        
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -30,15 +30,47 @@ class DashboardHome extends StatelessWidget {
                     ),
                   ),
                 ),
+                SizedBox(
+                  width: 110,
+                ),
+                TextButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => Stat1Page(),
+                      ),
+                    );
+                  },
+                  child: Text(
+                    "View more",
+                    style: GoogleFonts.sora(
+                      color: Color.fromARGB(255, 250, 186, 24),
+                      fontSize: 15,
+                      decoration: TextDecoration.underline,
+                      decorationColor: Color.fromARGB(255, 250, 186, 24),
+                    ),
+                  ),
+                ),
               ],
             ),
             const SizedBox(
               height: 20,
             ),
-            Container(
-              child: Image.asset(
-                "assets/stats.png",
-                height: 250,
+            InkWell(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => DashboardProjects(),
+                  ),
+                );
+              },
+              child: Container(
+                child: Image.asset(
+                  "assets/stats.png",
+                  height: 250,
+                ),
               ),
             ),
             const SizedBox(
